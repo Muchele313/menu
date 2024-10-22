@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de Lanches e Sobremesas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Menu de Lanches e Sobremesas</h1>
+        
+        <div class="menu">
+            <h2>Lanches</h2>
+            <div class="item">
+                <h3>Combo Cheddar com Bacon</h3>
+                <p>Acompanhado de batata frita e refrigerante</p>
+                <p>Preço: R$ 25,00</p>
+            </div>
+            <div class="item">
+                <h3>Combo Costela com Geleia de Pimenta</h3>
+                <p>Acompanhado de batata frita e refrigerante</p>
+                <p>Preço: R$ 30,00</p>
+            </div>
+            <div class="item">
+                <h3>Combo Lanche de Frango com Salada e Maionese Verde</h3>
+                <p>Acompanhado de batata frita e refrigerante</p>
+                <p>Preço: R$ 25,00</p>
+            </div>
+        </div>
+
+        <h2 class="sobremesas">Sobremesas</h2>
+        <div class="menu">
+            <div class="item">
+                <h3>Brownie com Cobertura de Chocolate</h3>
+                <p>Preço: R$ 18,00</p>
+            </div>
+            <div class="item">
+                <h3>Brownie com Cobertura de Doce de Leite</h3>
+                <p>Preço: R$ 18,00</p>
+            </div>
+            <div class="item">
+                <h3>Bolo de Pote - Sabores</h3>
+                <ul>
+                    <li>Chocolate com Morango</li>
+                    <li>Ninho com Nutella</li>
+                    <li>Doce de Leite com Ameixa</li>
+                    <li>Abacaxi com Creme de Ninho</li>
+                </ul>
+                <p>Preço: R$ 15,00 cada</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+body {
+    background-color: #ffcc80; /* Laranja claro */
+    color: black; /* Letras em preto */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.menu {
+    margin-bottom: 20px;
+}
+
+.item {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.sobremesas {
+    font-size: 1.5em; /* Letras maiores para "Sobremesas" */
+    margin-top: 30px;
+}
